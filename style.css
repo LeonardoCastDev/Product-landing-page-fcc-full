@@ -16,6 +16,7 @@ body {
 #main {
   max-width: 100%;
   margin-bottom: 40px;
+  overflow: hidden;
 }
 
 #header {
@@ -201,4 +202,25 @@ body {
 #footer i {
   font-size: 30px;
   color: white;
+}
+
+@media screen and (max-width: 450px) {
+  #header {
+    height: 70px;
+  }
+
+  #header-img {
+    width: 90px;
+    height: 40px;
+    margin: 5px 0 5px 5px;
+  }
+
+  #nav-bar ul {
+    margin-right: 15px;
+  }
+
+  #nav-bar li {
+    width: 55px;
+    font-size: 20px;
+  }
 }
