@@ -210,17 +210,18 @@ body {
   }
 
   #header-img {
-    width: 90px;
-    height: 40px;
-    margin: 10px 10px 5px 5px;
+    width: 70px;
+    height: 20px;
+    margin: 20px 10px 5px 5px;
   }
 
   #nav-bar ul {
-    margin-right: 15px;
+    margin-right: 20px;
+    border: 1px solid red;
   }
 
   #nav-bar li {
-    width: 55px;
+    width: 60px;
     font-size: 20px;
   }
 
