@@ -1,0 +1,41 @@
+.faq_wrapper {
+  margin-top: 110px;
+  width: 800px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+#faqs-title {
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+.faq_wrapper h3 {
+  font-size: 27px;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+hr {
+  border: 0.5px solid black;
+  background-color: black;
+  margin-top: 5px;
+}
+
+details {
+  margin-bottom: 15px;
+}
+
+summary {
+  font-size: 25px;
+  color: rgb(61, 57, 57);
+  margin-top: 10px;
+}
+
+.faq_wrapper p {
+  font-size: 20px;
+  font-weight: 700;
+}
