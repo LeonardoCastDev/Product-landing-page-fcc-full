@@ -196,7 +196,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 110px;
 }
 
 #footer i {
@@ -212,7 +212,7 @@ body {
   #header-img {
     width: 90px;
     height: 40px;
-    margin: 5px 0 5px 5px;
+    margin: 10px 10px 5px 5px;
   }
 
   #nav-bar ul {
@@ -222,5 +222,54 @@ body {
   #nav-bar li {
     width: 55px;
     font-size: 20px;
+  }
+
+  .cart {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .intro-web {
+    margin-top: 90px;
+  }
+
+  .intro-web h1 {
+    font-size: 40px;
+  }
+
+  .grid-products {
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(3, 150px);
+    grid-gap: 20px 30px;
+  }
+
+  .container-video {
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+
+  #newsletter-subscribe {
+    font-size: 25px;
+    margin-top: 10px;
+    width: 320px;
+  }
+
+  #newsletter-subscribe p {
+    margin: 10 30px;
+  }
+
+  #newsletter-subscribe form {
+    margin-bottom: 10px;
+  }
+
+  #email {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+
+  #submit {
+    margin-left: 0px;
+    border-left: 1px;
+    border-radius: 5%;
   }
 }

@@ -1,3 +1,7 @@
+.faqs-wrapper {
+  overflow: hidden;
+}
+
 .faq_wrapper {
   margin-top: 110px;
   width: 800px;
@@ -38,4 +42,10 @@ summary {
 .faq_wrapper p {
   font-size: 20px;
   font-weight: 700;
+}
+
+@media screen and (max-width: 450px) {
+  .faq_wrapper {
+    width: 350px;
+  }
 }
